@@ -5,7 +5,7 @@ spring:
     check-template-location: true
     suffix:  .html
   profiles:
-    active: dev
+    active: pro
   messages:
     encoding: utf-8
     basename: i18n/messages

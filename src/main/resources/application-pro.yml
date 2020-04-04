@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/blog?serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/blog2?serverTimezone=GMT%2B8
     username: root
     password: 8656027dj
   jpa:
@@ -12,9 +12,9 @@ spring:
 
 logging:
   level:
-    root: warn
-    com.dj: info
+    root: info
+    com.dj: debug
   file: log/blog-pro.log
 
 server:
-  port: 8081
+  port: 8080
