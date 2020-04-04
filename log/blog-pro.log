@@ -1,0 +1,5 @@
+2020-03-03 12:14:06.285  INFO 22804 --- [restartedMain] com.dj.BlogApplication                   : Starting BlogApplication on LAPTOP-D8GPA8T8 with PID 22804 (F:\IntelliJCode\blog\target\classes started by Green_Geek in F:\IntelliJCode\blog)
+2020-03-03 12:14:06.287  INFO 22804 --- [restartedMain] com.dj.BlogApplication                   : The following profiles are active: pro
+2020-03-03 12:14:07.730  WARN 22804 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-03 12:14:07.881  WARN 22804 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-03 12:14:07.981  INFO 22804 --- [restartedMain] com.dj.BlogApplication                   : Started BlogApplication in 2.008 seconds (JVM running for 2.928)
